@@ -4,7 +4,7 @@ const path = require('path');
 
 const USERNAME = 'matteoferrari';
 const PASSWORD = 'bloom123';
-const SCHOOL = process.env.SPARX_SCHOOL || '';
+const SCHOOL = process.env.SPARX_SCHOOL || 'Bloom World Academy';
 const HEADLESS = process.env.HEADLESS !== '0';
 const SHOTS = path.join(__dirname, 'screenshots');
 fs.mkdirSync(SHOTS, { recursive: true });
