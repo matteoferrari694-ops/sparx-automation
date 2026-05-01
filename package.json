@@ -1,0 +1,19 @@
+{
+  "name": "sparx-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sparx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:40581/git/matteoferrari694-ops/sparx-automation"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.56.0"
+  }
+}
